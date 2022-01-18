@@ -1,0 +1,63 @@
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+
+nav {
+  /* box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px #fff rgb(0 0 0 / 8%); */
+  position: relative;
+  z-index: 1;
+}
+.flex-auto {
+  flex: auto;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav {
+}
+.landing {
+  width: 100%;
+  height: calc(100vh - 265px);
+  position: relative;
+  background-color: #f8f9fb;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+.landing img {
+  height: 400px;
+  width: 100%;
+  right: 30px;
+}
+.header-banner {
+  position: absolute;
+  top: 60px;
+  background: #fff;
+  max-width: 441px;
+  padding: 20px;
+  height: 180px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  left: 60px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-weight: 700;
+}
+
+input[type=text] {
+  background-color: #f7f9fa;
+  padding: 10px 20px;
+  
+}
+
+.form-control:focus{
+   box-shadow:  0 0 0 0;
+}
+
+@media(max-width:765px){
+    
+}
