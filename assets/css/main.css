@@ -58,7 +58,7 @@ input[type=text] {
    box-shadow:  0 0 0 0;
 }
 
-@media(max-width:765px){
+@media(max-width:991px){
     .landing{
         flex-direction: column;
     }
@@ -69,6 +69,7 @@ input[type=text] {
         position: relative;
         left: 0;
         height: 200px;
+        box-shadow: 0 0 0 0;
     }
     .header-banner  h1{
         font-size: 22px;
