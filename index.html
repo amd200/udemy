@@ -108,7 +108,11 @@
       </nav>
     </header>
     <div class="landing">
-      <img id="img-landing" src="d973b772-c75a-4e49-91ba-cda89de05e8c.jpg" alt="" />
+      <img
+        id="img-landing"
+        src="d973b772-c75a-4e49-91ba-cda89de05e8c.jpg"
+        alt=""
+      />
       <div class="header-banner">
         <h1>Welcome back — time to learn & save</h1>
         <p>
@@ -129,9 +133,12 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      if (screen.width < 765) {
-        document.getElementById("img-landing").src = "5a35bed0-9bc8-4ae0-8055-442fef6c6fc5.jpg";
-        
+      if (screen.width < 991) {
+        document.getElementById("img-landing").src =
+          "5a35bed0-9bc8-4ae0-8055-442fef6c6fc5.jpg";
+      } else {
+        document.getElementById("img-landing").src =
+          "d973b772-c75a-4e49-91ba-cda89de05e8c.jpg";
       }
     </script>
   </body>
