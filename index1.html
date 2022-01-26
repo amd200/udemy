@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+     <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Udemy</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    
+    <div
+      style="text-align: center; background-color: #eceb98"
+      class="alert alert-warning"
+      role="alert"
+    >
+      <strong>Sale on now </strong>| Learn from home or anywhere life takes you.
+      Courses from E£149.99 through tomorrow.<br />
+      <strong>1 day left </strong>
+      <button
+        style="position: absolute; right: 15px; bottom: 35px"
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+              alt=""
+              width="90"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 w-100 align-items-center"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-dark"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item flex-auto">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2 rounded-pill border-dark"
+                    type="text"
+                    placeholder="Search for anything"
+                    aria-label="Search"
+                  />
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark">Udemy Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark">Teach on Udemy</a>
+              </li>
+              <li class="nav-item">
+                <a style="font-weight: bold" class="nav-link"
+                  ><i
+                    style="font-weight: bold; font-size: 20px"
+                    class="bi bi-cart3"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button type="button" class="btn btn-outline-dark">
+                    <strong>Login</strong>
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button type="button" class="btn btn-dark">
+                    <strong>Sign up</strong>
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button type="button" class="btn btn-outline-dark">
+                    <i class="bi bi-globe"></i></button
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="landing">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              id="imgone"
+              src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/f2dec8c9-dea0-431c-b98d-c61ef422b0aa.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              id="imgtwo"
+              src="https://img-c.udemycdn.com/notices/web_banner/slide_2_image_udlite/e9950837-673b-4425-8312-b88c7c5730fe.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev header-car d-none"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next header-car d-none"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="header-banner">
+        <h1>Welcome back — time to learn & save</h1>
+        <p>
+          We missed you! So here’s an offer just for you: get courses from
+          E£169.99. It’s six hours of savings.
+        </p>
+      </div>
+    </div>
+    <section>
+      <div class="padding">
+        <div class="content">
+          <h2 class="d" style="font-weight: 700">
+            A broad selection of courses
+          </h2>
+          <p class="d">
+            Choose from 183,000 online video courses with new additions
+            published every month
+          </p>
+          <!-- <input
+            placeholder="What do you want to learn"
+            class="d-2"
+            style="
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              padding: 7px 10px;
+              width: 507px;
+            "
+            type="text"
+            name=""
+            id=""
+          /> -->
+          <!-- <div
+            class="input d-2"
+            style="
+              margin-bottom: 20px;
+              width: 477px;
+              border: 1px solid #ccc;
+              display: flex;
+              align-items: center;
+              display: none;
+            "
+          >
+            <input
+              class="d-2"
+              placeholder="What do you want to learn"
+              style="
+                width: 100%;
+                padding: 10px 10px;
+                border: none;
+                background-color: transparent;
+              "
+              type="text"
+              name=""
+              id=""
+            />
+            <img
+              src="search.png"
+              style="margin-right: 10px; width: 18px"
+              alt=""
+            />
+          </div> -->
+        </div>
+        <div class="featured-course d">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active text-dark"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+              >
+                python
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                Excel
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Web Development
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Java Script
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Data Science
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Aws Certification
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Drawing
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content d" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel"aria-labelledby="home-tab">
+              <div class="tab-pane-content">
+                <p class="h2">Expand your career opportunities with Python </p>
+                <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike...</p>
+                <button type="button" class="btn btn-outline-dark">Explore Python</button>
+
+              </div>
+              <div class="carousel-cards">
+                <div id="featured-course-puthon" class=" featured-course-puthon carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+            <img src="https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg?secure=fwdULlD8Oz3AypwPU83NJA%3D%3D%2C1642710744"  alt="...">
+          </div>
+          <div class="course-body">
+            <div class="course-title">
+             <h2 class="text-card"> البرمجة من الصفر | كيف تصبح مبرمج بايثون</h2>
+             <p class="text-card2">المبرمج الصغير</p>
+             <div class="star">
+               <i class="text-star" style=" color: #b4690e;">4.6</i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i> 
+              <i style="color: #3d3d3d; font-size: 13px;">(164)</i>
+            </div>
+            <div class="coast">
+              <span style="font-size: 19px;">E£219.99</span>
+              <del style="color: #6a6f73; font-size: 14px;">E£499.99</del>
+            </div>
+                        <p class="n">Bestseller</p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/2426532_a277_7.jpg?secure=dgyxnMigIGco4_MP6iRaRg%3D%3D%2C1642710744"  alt="...">
+          </div>
+             <div class="course-body">
+            <div class="course-title">
+             <h2 class="text-card"> The python and Django Learning Guide</h2>
+             <p class="text-card2">Hassan Fulaih</p>
+             <div class="star">
+               <i class="text-star" style=" color: #b4690e;">4.7</i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i> 
+              <i style="color: #3d3d3d; font-size: 13px;">(693)</i>
+            </div>
+            <div class="coast">
+              <span style="font-size: 19px;">E£219.99</span>
+              <del style="color: #6a6f73; font-size: 14px;">E£499.99</del>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4441304_5175_20.jpg?secure=5LciD4tmt6MjW0kAYkiCRw%3D%3D%2C1642710744"  alt="...">
+          </div>
+            <div class="course-body">
+            <div class="course-title">
+             <h2 style="text-align: right;" class="text-card"> احترف لغة بايثون لخدمات السوشيال ميديا-ابدأ تحقيق الربح الآن</h2>
+             <p class="text-card2">Langvara Training</p>
+             <div class="star">
+               <i class="text-star" style=" color: #b4690e;">4.9</i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i> 
+              <i style="color: #3d3d3d; font-size: 13px;">(25)</i>
+            </div>
+            <div class="coast">
+              <span style="font-size: 19px;">E£149.99</span>
+              <del style="color: #6a6f73; font-size: 14px;">E£299.99</del>
+            </div>
+            <p class="n" style="background-color: #fcaea0;
+    color: #612012;">Hot & New</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4230080_0693.jpg?secure=1LAwKa2yy7XCuvO3G9wWeQ%3D%3D%2C1642710744"  alt="...">
+          </div>
+             <div class="course-body">
+            <div class="course-title">
+             <h2 class="text-card">Python For Beginners [in<br> Arabic]</h2>
+             <p class="text-card2">ElAmir Mahmoud Mansour</p>
+             <div class="star">
+               <i class="text-star" style=" color: #b4690e;">4.6</i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i> 
+              <i style="color: #3d3d3d; font-size: 13px;">(223)</i>
+            </div>
+            <div class="coast">
+              <span style="font-size: 19px;">E£149.99</span>
+              <del style="color: #6a6f73; font-size: 14px;">E£299.99</del>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4434202_3db6.jpg?secure=pSJjcmlzM9LLBKeK9dpe5w%3D%3D%2C1642710744"  alt="...">
+          </div>
+             <div class="course-body">
+            <div class="course-title">
+             <h2 class="text-card"> البرمجة من الصفر | كيف تصبح مبرمج بايثون</h2>
+             <p class="text-card2">المبرمج الصغير</p>
+             <div class="star">
+               <i class="text-star" style=" color: #b4690e;">4.7</i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i> 
+              <i style="color: #3d3d3d; font-size: 13px;">(693)</i>
+            </div>
+            <div class="coast">
+              <span style="font-size: 19px;">E£219.99</span>
+              <del style="color: #6a6f73; font-size: 14px;">E£499.99</del>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4395484_1b3a_3.jpg?secure=awX_0vFdiVQKejmjB1aI0Q%3D%3D%2C1642710744"  alt="...">
+          </div>
+              <div class="course-body">
+            <div class="course-title">
+             <h2 class="text-card">تعلم البرمجة بلغة بايثون من الصفر خطوة بخطوة</h2>
+             <p class="text-card2">Hadi Hawla</p>
+             <div class="star">
+               <i class="text-star" style=" color: #b4690e;">4.7</i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i> 
+              <i style="color: #3d3d3d; font-size: 13px;">(693)</i>
+            </div>
+            <div class="coast">
+              <span style="font-size: 19px;">E£219.99</span>
+              <del style="color: #6a6f73; font-size: 14px;">E£499.99</del>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#featured-course-puthon" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+
+  <button class="carousel-control-next" type="button" data-bs-target="#featured-course-puthon" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              ...
+            </div>
+            <div
+              class="tab-pane fade"
+              id="contact"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+            >
+              ...
+            </div>
+          </div>
+        </div>
+        <div class="accordion d-2" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+               class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Python
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+               <div class="carousel2-cards">
+             <div id="cards-python" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+            <img src="https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg?secure=fwdULlD8Oz3AypwPU83NJA%3D%3D%2C1642710744"  alt="...">
+          </div>
+          <div class="course-body">
+            <div class="course-title">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4395484_1b3a_3.jpg?secure=awX_0vFdiVQKejmjB1aI0Q%3D%3D%2C1642710744"  alt="...">
+          </div>
+          <div class="course-body">
+            <div class="course-title">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4395484_1b3a_3.jpg?secure=awX_0vFdiVQKejmjB1aI0Q%3D%3D%2C1642710744"  alt="...">
+          </div>
+          <div class="course-body">
+            <div class="course-title">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="carousel-item">
+      <div class="col-md-3">
+        <div class="course-card">
+          <div class="course-image">
+      <img src="https://img-b.udemycdn.com/course/240x135/4395484_1b3a_3.jpg?secure=awX_0vFdiVQKejmjB1aI0Q%3D%3D%2C1642710744"  alt="...">
+          </div>
+          <div class="course-body">
+            <div class="course-title">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#cards-python" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#cards-python" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Excel
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Web Development
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Java Script
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Data Science
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                Aws Certification
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                Drawing
+              </button>
+            </h2>
+            <div
+              id="collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skilles d">
+     
+        <div class="row">
+          <div class="col-4">
+      <div class="box">
+        <div class="icons">
+          <i class="fas fa-play"></i>
+        </div>
+        <div class="text text-dark ">
+          Learn in-demand skills with over<br> 183,000 video courses
+        </div>
+      </div>
+      </div>
+          <div class="col-4">
+      <div class="box">
+        <div class="icons">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="text text-dark ">
+          Choose courses taught by real-world<br> experts
+        </div>
+      </div>
+      </div>
+          <div class="col-4">
+      <div class="box">
+        <div class="icons">
+          <i class="fas fa-infinity"></i>
+        </div>
+        <div class="text text-dark ">
+          Learn at your own pace, with lifetime<br> access on mobile and desktop
+        </div>
+      </div>
+      </div>
+   
+    
+      </div>
+    </section>
+
+    <section class="skilles skilles-mobile  d-2"> 
+            <h1 class="text-center">Why learn on Udemy?</h1>
+            <div class="container">
+               <div class="box">
+    
+        <div class="text text-dark text-center">
+          Learn in-demand skills with over 183,000 video courses
+        </div>
+      </div>
+               <div class="box">
+       
+        <div class="text text-dark text-center">
+         Choose courses taught by real-world experts
+        </div>
+      </div>
+               <div class="box">
+      
+        <div class="text text-dark text-center">
+          Learn at your own pace, with lifetime access on mobile and desktop
+
+        </div>
+      </div>
+            </div>
+    </section>
+
+    <section class="categories">
+      <div class="padding">
+      <h2 style="margin-left: 10px; margin-bottom: 20px;">Top Categories</h2>
+      <div class="grid">
+      <div class="box">
+        
+                  <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="">
+
+    
+       <div class="text">
+         Design
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="">
+       <div class="text">
+         Development
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="">
+       <div class="text">
+         Marketing
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" alt="">
+       <div class="text">
+         IT and Software
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg" alt="">
+       <div class="text">
+         Personal Development
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="">
+       <div class="text">
+         Business
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="">
+       <div class="text">
+         Photography
+       </div>
+      </div>
+      <div class="box">
+        <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="">
+       <div class="text">
+         Music
+       </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      if (screen.width < 991) {
+        document.getElementById("imgone").src =
+          "dad33c13-7adc-4523-b9b6-166f0a2365d4.jpg";
+      } else {
+        document.getElementById("imgone").src =
+          "f2dec8c9-dea0-431c-b98d-c61ef422b0aa (1).jpg";
+      }
+    </script>
+    <script>
+      if (screen.width < 991) {
+        document.getElementById("imgtwo").src =
+          "https://s.udemycdn.com/home/non-student-cta/ub-1x-v3.jpg";
+        // document.getElementById("myDIV").style.display = "block";
+      }
+    </script>
+
+    <script>
+      let courses = document.querySelectorAll('.carousel-cards  .carousel-item');
+      
+      courses.forEach((el) => {
+        const minPerSlide = 4
+        let next = el.nextElementSibling
+        for(var i = 1; i < minPerSlide; i++){
+          if(!next){
+            next = courses[0]
+          }
+          let cloneChild = next.cloneNode(true)
+          el.appendChild(cloneChild.children[0])
+            next = next.nextElementSibling
+          
+        }
+      });
+    </script>
+    <script>
+      let course = document.querySelectorAll('.carousel2-cards  .carousel-item');
+      
+      course.forEach((el) => {
+        const minPerSlide = 2
+        let next = el.nextElementSibling
+        for(var i = 1; i < minPerSlide; i++){
+          if(!next){
+            next = course[0]
+          }
+          let cloneChild = next.cloneNode(true)
+          el.appendChild(cloneChild.children[0])
+            next = next.nextElementSibling
+          
+        }
+      });
+    </script>
+  </body>
+</html>
